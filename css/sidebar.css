@@ -1,0 +1,190 @@
+/* ── Sidebar layout ──────────────────────────────────────── */
+
+#sidebar {
+  padding: 0;
+}
+
+/* ── Top action area ─────────────────────────────────────── */
+
+.sidebar-top {
+  padding: 16px 16px 0;
+}
+
+.sidebar-continue-btn {
+  display: block;
+  width: 100%;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.15s;
+  letter-spacing: 0.2px;
+}
+.sidebar-continue-btn:hover { background: var(--blue-dark); }
+
+/* ── Daily review ────────────────────────────────────────── */
+
+.sidebar-review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 4px 12px;
+  margin-top: 2px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.review-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.review-badge {
+  background: var(--text-dark);
+  color: #fff;
+  border-radius: 99px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  min-width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+}
+
+.sidebar-review-btn {
+  background: none;
+  border: 1.5px solid var(--text-mid);
+  color: var(--text-mid);
+  border-radius: 6px;
+  padding: 4px 14px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.sidebar-review-btn:hover {
+  border-color: var(--text-dark);
+  color: var(--text-dark);
+}
+
+/* ── Course navigation ───────────────────────────────────── */
+
+.sidebar-courses {
+  flex: 1;
+  padding: 8px 0;
+}
+
+.sidebar-section-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: var(--text-light);
+  padding: 10px 20px 4px;
+  text-transform: uppercase;
+}
+
+.sidebar-course-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-course-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.12s;
+  border-radius: 0;
+}
+
+.sidebar-course-item:hover:not(.locked) {
+  background: rgba(0,0,0,0.04);
+}
+
+.sidebar-course-item.active {
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.sidebar-course-item.locked {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.course-num {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--orange);
+  min-width: 16px;
+}
+
+.sidebar-course-item.locked .course-num {
+  color: var(--text-light);
+}
+
+.course-name {
+  flex: 1;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.sidebar-course-item.locked .course-name {
+  color: var(--text-mid);
+}
+
+.course-dot {
+  font-size: 0.7rem;
+  color: var(--text-light);
+}
+
+.course-dot.active-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--orange);
+  display: inline-block;
+  font-size: 0;
+}
+
+/* ── Sidebar footer ──────────────────────────────────────── */
+
+.sidebar-footer {
+  padding: 12px 20px;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: var(--text-light);
+  flex-shrink: 0;
+}
+
+.sidebar-dots-btn {
+  background: none;
+  border: none;
+  color: var(--text-light);
+  cursor: pointer;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: background 0.12s;
+}
+.sidebar-dots-btn:hover {
+  background: rgba(0,0,0,0.06);
+  color: var(--text-dark);
+}

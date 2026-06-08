@@ -1,0 +1,2153 @@
+{
+  "meta": {
+    "app_name": "Thai Alphabet Lernapp",
+    "language": "de",
+    "total_lessons": 25,
+    "user_progress": {
+      "completed_lessons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "current_lesson": 5,
+      "known_consonants": [
+        "ม",
+        "น",
+        "ง",
+        "ย",
+        "ว",
+        "ก",
+        "ด",
+        "บ",
+        "ช",
+        "ซ"
+      ],
+      "known_vowels": [
+        "า",
+        "ี",
+        "ะ",
+        "-ิ",
+        "ู",
+        "ุ"
+      ]
+    }
+  },
+  "tone_classes": {
+    "middle": {
+      "de": "Mittelklasse",
+      "consonants": [
+        "ก",
+        "จ",
+        "ด",
+        "ต",
+        "บ",
+        "ป",
+        "อ"
+      ],
+      "rule_de": "Mittelklasse + lebende Silbe = mittlerer Ton"
+    },
+    "low": {
+      "de": "Niedrigklasse",
+      "consonants": [
+        "ง",
+        "ญ",
+        "ณ",
+        "น",
+        "ม",
+        "ย",
+        "ร",
+        "ล",
+        "ว",
+        "ฬ",
+        "ค",
+        "ฆ",
+        "ช",
+        "ซ",
+        "ฌ",
+        "ฑ",
+        "ฒ",
+        "ท",
+        "ธ",
+        "พ",
+        "ฟ",
+        "ภ",
+        "ฮ"
+      ],
+      "rule_de": "Niedrigklasse + lebende Silbe = mittlerer Ton"
+    },
+    "high": {
+      "de": "Hochklasse",
+      "consonants": [
+        "ข",
+        "ฃ",
+        "ฉ",
+        "ฐ",
+        "ถ",
+        "ผ",
+        "ฝ",
+        "ศ",
+        "ษ",
+        "ส",
+        "ห"
+      ],
+      "rule_de": "Hochklasse + lebende Silbe = steigender Ton"
+    }
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Maaw máa, Naaw nǔu und Long aa",
+      "title_de": "Die ersten Buchstaben: M, N und langes A",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ม",
+          "name": "maaw máa",
+          "sound": "m",
+          "sound_hint_de": "m wie in 'Maus'",
+          "tone_class": "low",
+          "example_thai": "ม้า",
+          "example_romanized": "máa",
+          "example_de": "Pferd",
+          "example_tone": "falling"
+        },
+        {
+          "type": "consonant",
+          "thai": "น",
+          "name": "naaw nǔu",
+          "sound": "n",
+          "sound_hint_de": "n wie in 'Nase'",
+          "tone_class": "low",
+          "example_thai": "หนู",
+          "example_romanized": "nǔu",
+          "example_de": "Maus / Ratte",
+          "example_tone": "rising"
+        },
+        {
+          "type": "vowel",
+          "thai": "า",
+          "name": "sara aa",
+          "sound": "aa",
+          "sound_hint_de": "aa wie in 'Vater' – langes A",
+          "length": "long",
+          "example_thai": "มา",
+          "example_romanized": "maa",
+          "example_de": "kommen",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Niedrigklasse-Konsonant + lebende Silbe (mit langem Vokal) = mittlerer Ton (wie 'aaa' gleichmäßig sagen)",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "มา",
+          "romanized": "maa",
+          "de": "kommen",
+          "tone": "mid"
+        },
+        {
+          "thai": "นา",
+          "romanized": "naa",
+          "de": "Reisfeld",
+          "tone": "mid"
+        },
+        {
+          "thai": "นาน",
+          "romanized": "naan",
+          "de": "eine lange Zeit",
+          "tone": "mid"
+        },
+        {
+          "thai": "มาน",
+          "romanized": "maan",
+          "de": "(alter Name, archaisch)",
+          "tone": "mid"
+        }
+      ],
+      "tone_note_de": "Niedrigklasse-Konsonant + lebende Silbe (mit langem Vokal) = mittlerer Ton (wie 'aaa' gleichmäßig sagen)"
+    },
+    {
+      "lesson": 2,
+      "title": "Ngaaw nguu, Yaaw yák, Waaw wǎaen und Tonregeln",
+      "title_de": "Ng, Y, W und erste Tonregeln",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ง",
+          "name": "ngaaw nguu",
+          "sound": "ng",
+          "sound_hint_de": "ng wie in 'sing' – am Anfang eines Wortes!",
+          "tone_class": "low",
+          "example_thai": "งู",
+          "example_romanized": "nguu",
+          "example_de": "Schlange",
+          "example_tone": "mid"
+        },
+        {
+          "type": "consonant",
+          "thai": "ย",
+          "name": "yaaw yák",
+          "sound": "y",
+          "sound_hint_de": "y wie in 'Yoga'",
+          "tone_class": "low",
+          "example_thai": "ยักษ์",
+          "example_romanized": "yák",
+          "example_de": "Riese",
+          "example_tone": "high"
+        },
+        {
+          "type": "consonant",
+          "thai": "ว",
+          "name": "waaw wǎaen",
+          "sound": "w",
+          "sound_hint_de": "w wie in 'Wasser' (am Ende wie 'o'-Laut)",
+          "tone_class": "low",
+          "example_thai": "แหวน",
+          "example_romanized": "wǎaen",
+          "example_de": "Ring",
+          "example_tone": "rising"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Niedrigklasse-Konsonant + lebende Silbe = mittlerer Ton. Beispiel: งาน = ngaan (gleichmäßig, mittlerer Ton)",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "งาน",
+          "romanized": "ngaan",
+          "de": "Arbeit / arbeiten",
+          "tone": "mid"
+        },
+        {
+          "thai": "ยาว",
+          "romanized": "yaao",
+          "de": "lang",
+          "tone": "mid"
+        },
+        {
+          "thai": "นาย",
+          "romanized": "naai",
+          "de": "Chef / Herr",
+          "tone": "mid"
+        },
+        {
+          "thai": "ม้า",
+          "romanized": "máa",
+          "de": "Pferd",
+          "tone": "falling"
+        },
+        {
+          "thai": "งู",
+          "romanized": "nguu",
+          "de": "Schlange",
+          "tone": "mid"
+        }
+      ],
+      "tone_note_de": "Niedrigklasse-Konsonant + lebende Silbe = mittlerer Ton. Beispiel: งาน = ngaan (gleichmäßig, mittlerer Ton)"
+    },
+    {
+      "lesson": 3,
+      "title": "Gaaw gài, Daaw dèk, Baaw bai-máai und Long i",
+      "title_de": "G, D, B und langes I",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ก",
+          "name": "gaaw gài",
+          "sound": "g/k",
+          "sound_hint_de": "g wie in 'gut' – nicht aspiriert (kein Luftstoß)",
+          "tone_class": "middle",
+          "example_thai": "ไก่",
+          "example_romanized": "gài",
+          "example_de": "Huhn / Hahn",
+          "example_tone": "low"
+        },
+        {
+          "type": "consonant",
+          "thai": "ด",
+          "name": "daaw dèk",
+          "sound": "d/t",
+          "sound_hint_de": "d wie in 'Dachs'",
+          "tone_class": "middle",
+          "example_thai": "เด็ก",
+          "example_romanized": "dèk",
+          "example_de": "Kind",
+          "example_tone": "low"
+        },
+        {
+          "type": "consonant",
+          "thai": "บ",
+          "name": "baaw bai-máai",
+          "sound": "b/p",
+          "sound_hint_de": "b wie in 'Ball' – nicht aspiriert",
+          "tone_class": "middle",
+          "example_thai": "ใบไม้",
+          "example_romanized": "bai-máai",
+          "example_de": "Blatt",
+          "example_tone": "falling"
+        },
+        {
+          "type": "vowel",
+          "thai": "กี",
+          "name": "sara ii / ee",
+          "sound": "ii",
+          "sound_hint_de": "ii wie in 'grün' – langes, helles i (ee in 'green')",
+          "length": "long",
+          "example_thai": "ดี",
+          "example_romanized": "dii",
+          "example_de": "gut",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Mittelklasse-Konsonant + lebende Silbe = mittlerer Ton. Beispiel: กา = gaa (gleichmäßig)",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "กา",
+          "romanized": "gaa",
+          "de": "Krähe",
+          "tone": "mid"
+        },
+        {
+          "thai": "ดี",
+          "romanized": "dii",
+          "de": "gut",
+          "tone": "mid"
+        },
+        {
+          "thai": "บ้าน",
+          "romanized": "bâan",
+          "de": "Haus / blühen",
+          "tone": "falling"
+        },
+        {
+          "thai": "กาน",
+          "romanized": "gaan",
+          "de": "Handlung / -ung (Suffix)",
+          "tone": "mid"
+        }
+      ],
+      "tone_note_de": "Mittelklasse-Konsonant + lebende Silbe = mittlerer Ton. Beispiel: กา = gaa (gleichmäßig)"
+    },
+    {
+      "lesson": 4,
+      "title": "Chaaw cháang, Saaw sôo, Short a und Short i",
+      "title_de": "Ch, S und kurze Vokale A und I",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ช",
+          "name": "chaaw cháang",
+          "sound": "ch",
+          "sound_hint_de": "tsch wie in 'Tschüss' (aspiriert)",
+          "tone_class": "low",
+          "example_thai": "ช้าง",
+          "example_romanized": "cháang",
+          "example_de": "Elefant",
+          "example_tone": "falling"
+        },
+        {
+          "type": "consonant",
+          "thai": "ซ",
+          "name": "saaw sôo",
+          "sound": "s",
+          "sound_hint_de": "s wie in 'Sonne'",
+          "tone_class": "low",
+          "example_thai": "โซ่",
+          "example_romanized": "sôo",
+          "example_de": "Kette",
+          "example_tone": "falling"
+        },
+        {
+          "type": "vowel",
+          "thai": "อะ",
+          "name": "sara a",
+          "sound": "a",
+          "sound_hint_de": "a wie in 'hat' – kurzes A, nur am Ende sichtbar",
+          "length": "short",
+          "example_thai": "นะ",
+          "example_romanized": "ná",
+          "example_de": "Partikel (na?)",
+          "example_tone": "high",
+          "note_de": "Wenn ein Konsonant in der Mitte steht, ersetzt das ะ sich selbst: มัน = man"
+        },
+        {
+          "type": "vowel",
+          "thai": "อิ",
+          "name": "sara i",
+          "sound": "i",
+          "sound_hint_de": "i wie in 'mit' – kurzes i",
+          "length": "short",
+          "example_thai": "นิด",
+          "example_romanized": "nít",
+          "example_de": "klein / ein bisschen",
+          "example_tone": "high"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Niedrigklasse + tote Silbe mit kurzem Vokal = hoher Ton! Z.B. ซัก = sák (hoher Ton). Niedrigklasse + tote Silbe mit langem Vokal = fallender Ton.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ช้าง",
+          "romanized": "cháang",
+          "de": "Elefant",
+          "tone": "falling"
+        },
+        {
+          "thai": "ซัก",
+          "romanized": "sák",
+          "de": "Kleidung waschen",
+          "tone": "high"
+        },
+        {
+          "thai": "ชัด",
+          "romanized": "chád",
+          "de": "klar / deutlich",
+          "tone": "high"
+        },
+        {
+          "thai": "มัน",
+          "romanized": "man",
+          "de": "es / das",
+          "tone": "mid"
+        },
+        {
+          "thai": "นิด",
+          "romanized": "nít",
+          "de": "klein / bisschen",
+          "tone": "high"
+        }
+      ],
+      "tone_note_de": "Niedrigklasse + tote Silbe mit kurzem Vokal = hoher Ton! Z.B. ซัก = sák (hoher Ton). Niedrigklasse + tote Silbe mit langem Vokal = fallender Ton."
+    },
+    {
+      "lesson": 5,
+      "title": "Phaaw phaan, Faaw fan, Short u und Long u",
+      "title_de": "Ph, F und die U-Vokale",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "พ",
+          "name": "phaaw phaan",
+          "sound": "ph/p",
+          "sound_hint_de": "p wie in 'Post' – aspiriert (mit Luftstoß)",
+          "tone_class": "low",
+          "example_thai": "พาน",
+          "example_romanized": "phaan",
+          "example_de": "Schale / Tablett",
+          "example_tone": "mid"
+        },
+        {
+          "type": "consonant",
+          "thai": "ฟ",
+          "name": "faaw fan",
+          "sound": "f",
+          "sound_hint_de": "f wie in 'Fisch'",
+          "tone_class": "low",
+          "example_thai": "ฟัน",
+          "example_romanized": "fan",
+          "example_de": "Zahn",
+          "example_tone": "mid"
+        },
+        {
+          "type": "vowel",
+          "thai": "อุ",
+          "name": "sara u",
+          "sound": "u",
+          "sound_hint_de": "u wie in 'Bus' – kurzes u",
+          "length": "short",
+          "example_thai": "ชุด",
+          "example_romanized": "chút",
+          "example_de": "Set / Outfit",
+          "example_tone": "high"
+        },
+        {
+          "type": "vowel",
+          "thai": "อู",
+          "name": "sara uu / oo",
+          "sound": "uu",
+          "sound_hint_de": "oo wie in 'Boot' – langes u",
+          "length": "long",
+          "example_thai": "ดู",
+          "example_romanized": "duu",
+          "example_de": "schauen",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Niedrigklasse + tote Silbe mit langem Vokal = fallender Ton. Z.B. พูด = phûut (fallend), มาก = mâak (fallend)",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "พาน",
+          "romanized": "phaan",
+          "de": "Schale / Tablett mit Sockel",
+          "tone": "mid"
+        },
+        {
+          "thai": "ฟัน",
+          "romanized": "fan",
+          "de": "Zahn",
+          "tone": "mid"
+        },
+        {
+          "thai": "ดู",
+          "romanized": "duu",
+          "de": "schauen",
+          "tone": "mid"
+        },
+        {
+          "thai": "ชุด",
+          "romanized": "chút",
+          "de": "Set / Outfit",
+          "tone": "high"
+        },
+        {
+          "thai": "พูด",
+          "romanized": "phûut",
+          "de": "sprechen",
+          "tone": "falling"
+        },
+        {
+          "thai": "มาก",
+          "romanized": "mâak",
+          "de": "sehr / viel",
+          "tone": "falling"
+        }
+      ],
+      "tone_note_de": "Niedrigklasse + tote Silbe mit langem Vokal = fallender Ton. Z.B. พูด = phûut (fallend), มาก = mâak (fallend)"
+    },
+    {
+      "lesson": 6,
+      "title": "Khaaw khwaai, Short ue und Long ue",
+      "title_de": "K (aspiriert) und die ÜE-Vokale",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ค",
+          "name": "khaaw khwaai",
+          "sound": "kh/k",
+          "sound_hint_de": "k wie in 'Katze' – aspiriert (mit Luftstoß). Nicht verwechseln mit ก!",
+          "tone_class": "low",
+          "example_thai": "ควาย",
+          "example_romanized": "khwaai",
+          "example_de": "Wasserbüffel",
+          "example_tone": "mid"
+        },
+        {
+          "type": "vowel",
+          "thai": "อึ",
+          "name": "sara euh",
+          "sound": "eu",
+          "sound_hint_de": "ähnlich wie ü – kurzes eu/ü",
+          "length": "short",
+          "example_thai": "นึก",
+          "example_romanized": "néuhk",
+          "example_de": "bedenken / denken",
+          "example_tone": "high"
+        },
+        {
+          "type": "vowel",
+          "thai": "อื",
+          "name": "sara eu",
+          "sound": "euu",
+          "sound_hint_de": "längeres ü/eu – langes eu. Wenn kein Konsonant folgt: schreibe อ dahinter",
+          "length": "long",
+          "example_thai": "มือ",
+          "example_romanized": "meuu",
+          "example_de": "Hand",
+          "example_tone": "mid",
+          "note_de": "Wenn kein Konsonant auf ื folgt, schreibt man อ dahinter: มือ = meuu"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "ค ist Niedrigklasse – sieht aus wie ก aber mit extra Kurve. Niedrigklasse + lebende Silbe = mittlerer Ton.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ควาย",
+          "romanized": "khwaai",
+          "de": "Wasserbüffel",
+          "tone": "mid"
+        },
+        {
+          "thai": "นึก",
+          "romanized": "néuhk",
+          "de": "bedenken / denken",
+          "tone": "high"
+        },
+        {
+          "thai": "มือ",
+          "romanized": "meuu",
+          "de": "Hand",
+          "tone": "mid"
+        },
+        {
+          "thai": "คืน",
+          "romanized": "kheuun",
+          "de": "zurückgeben / Nacht",
+          "tone": "mid"
+        },
+        {
+          "thai": "พืช",
+          "romanized": "phéuut",
+          "de": "Pflanze / Vegetation",
+          "tone": "falling"
+        }
+      ],
+      "tone_note_de": "ค ist Niedrigklasse – sieht aus wie ก aber mit extra Kurve. Niedrigklasse + lebende Silbe = mittlerer Ton."
+    },
+    {
+      "lesson": 7,
+      "title": "Thaaw thá-hǎan, Haaw nók-hûuk, Short e und Long e",
+      "title_de": "Th (aspiriert), H und die E-Vokale",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ท",
+          "name": "thaaw thá-hǎan",
+          "sound": "th/t",
+          "sound_hint_de": "t wie in 'Tee' – aspiriert (mit Luftstoß)",
+          "tone_class": "low",
+          "example_thai": "ทหาร",
+          "example_romanized": "thá-hǎan",
+          "example_de": "Soldat",
+          "example_tone": "mid"
+        },
+        {
+          "type": "consonant",
+          "thai": "ฮ",
+          "name": "haaw nók-hûuk",
+          "sound": "h",
+          "sound_hint_de": "h wie in 'Haus'",
+          "tone_class": "low",
+          "example_thai": "นกฮูก",
+          "example_romanized": "nók-hûuk",
+          "example_de": "Eule",
+          "example_tone": "falling"
+        },
+        {
+          "type": "vowel",
+          "thai": "เอะ",
+          "name": "sara e",
+          "sound": "e",
+          "sound_hint_de": "e wie in 'red' – kurzes e. Mit folgendem Konsonant: เ-็",
+          "length": "short",
+          "example_thai": "เช็ค",
+          "example_romanized": "chék",
+          "example_de": "checken / prüfen",
+          "example_tone": "high",
+          "note_de": "Wenn Konsonant folgt: เ-็ (z.B. เช็ค). Wenn kein Konsonant folgt: เ-ะ (z.B. เฟะ = verfault)"
+        },
+        {
+          "type": "vowel",
+          "thai": "เอ",
+          "name": "sara ee / eh",
+          "sound": "ee",
+          "sound_hint_de": "ey wie in 'grey' – langes e",
+          "length": "long",
+          "example_thai": "เทพ",
+          "example_romanized": "thêep",
+          "example_de": "Engel",
+          "example_tone": "falling"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "เ-ะ / เ-็ = kurzes e. เ- = langes e. Mai Kroet (◌์) macht einen Vokal kurz.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ทหาร",
+          "romanized": "thá-hǎan",
+          "de": "Soldat",
+          "tone": "mid"
+        },
+        {
+          "thai": "นกฮูก",
+          "romanized": "nók-hûuk",
+          "de": "Eule",
+          "tone": "mid/falling"
+        },
+        {
+          "thai": "เทพ",
+          "romanized": "thêep",
+          "de": "Engel / Gottheit",
+          "tone": "falling"
+        },
+        {
+          "thai": "เช็ค",
+          "romanized": "chék",
+          "de": "checken",
+          "tone": "high"
+        },
+        {
+          "thai": "เฮง",
+          "romanized": "heng",
+          "de": "Glück haben",
+          "tone": "mid"
+        }
+      ],
+      "tone_note_de": "เ-ะ / เ-็ = kurzes e. เ- = langes e. Mai Kroet (◌์) macht einen Vokal kurz."
+    },
+    {
+      "lesson": 8,
+      "title": "Raaw ruuea, Laaw ling, Short ae und Long ae",
+      "title_de": "R, L und die AE-Vokale",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ร",
+          "name": "raaw ruuea",
+          "sound": "r",
+          "sound_hint_de": "r – gerolltes r (manchmal wie n am Silbenende)",
+          "tone_class": "low",
+          "example_thai": "เรือ",
+          "example_romanized": "ruuea",
+          "example_de": "Boot",
+          "example_tone": "mid",
+          "note_de": "Am Ende einer Silbe wird ร wie น (n) ausgesprochen!"
+        },
+        {
+          "type": "consonant",
+          "thai": "ล",
+          "name": "laaw ling",
+          "sound": "l",
+          "sound_hint_de": "l wie in 'laut' (am Ende wie n ausgesprochen)",
+          "tone_class": "low",
+          "example_thai": "ลิง",
+          "example_romanized": "ling",
+          "example_de": "Affe",
+          "example_tone": "high",
+          "note_de": "Am Ende einer Silbe wird ล wie น (n) ausgesprochen!"
+        },
+        {
+          "type": "vowel",
+          "thai": "แอะ",
+          "name": "sara ae / a",
+          "sound": "ae",
+          "sound_hint_de": "a wie in 'cat' – kurzes ae",
+          "length": "short",
+          "example_thai": "แล็ก",
+          "example_romanized": "laek",
+          "example_de": "(Beispielwort kurzes ae)",
+          "example_tone": "mid"
+        },
+        {
+          "type": "vowel",
+          "thai": "แอ",
+          "name": "sara ae",
+          "sound": "aae",
+          "sound_hint_de": "a wie in 'bad' – langes ae",
+          "length": "long",
+          "example_thai": "แรง",
+          "example_romanized": "raaeng",
+          "example_de": "stark",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Niedrigklasse + lebende Silbe = mittlerer Ton. Achtung: ร und ล am Silbenende klingen wie น!",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "เรือ",
+          "romanized": "ruuea",
+          "de": "Boot",
+          "tone": "mid"
+        },
+        {
+          "thai": "ลิง",
+          "romanized": "ling",
+          "de": "Affe",
+          "tone": "high"
+        },
+        {
+          "thai": "บิล",
+          "romanized": "bin",
+          "de": "Rechnung",
+          "tone": "mid"
+        },
+        {
+          "thai": "แรง",
+          "romanized": "raaeng",
+          "de": "stark",
+          "tone": "mid"
+        },
+        {
+          "thai": "แมว",
+          "romanized": "maeo",
+          "de": "Katze",
+          "tone": "mid"
+        },
+        {
+          "thai": "และ",
+          "romanized": "láe",
+          "de": "und",
+          "tone": "high"
+        }
+      ],
+      "tone_note_de": "Niedrigklasse + lebende Silbe = mittlerer Ton. Achtung: ร und ล am Silbenende klingen wie น!"
+    },
+    {
+      "lesson": 9,
+      "title": "Jaaw jaan, Dtaaw dtào, Bpaaw bplaa, Short o und Long o",
+      "title_de": "J, DT, BP und die O-Vokale",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "จ",
+          "name": "jaaw jaan",
+          "sound": "j",
+          "sound_hint_de": "j wie in 'Jam' – nicht aspiriert",
+          "tone_class": "middle",
+          "example_thai": "จาน",
+          "example_romanized": "jaan",
+          "example_de": "Teller",
+          "example_tone": "mid"
+        },
+        {
+          "type": "consonant",
+          "thai": "ต",
+          "name": "dtaaw dtào",
+          "sound": "dt",
+          "sound_hint_de": "zwischen d und t – unaspiriertes t (kein Luftstoß)",
+          "tone_class": "middle",
+          "example_thai": "เต่า",
+          "example_romanized": "dtào",
+          "example_de": "Schildkröte",
+          "example_tone": "low"
+        },
+        {
+          "type": "consonant",
+          "thai": "ป",
+          "name": "bpaaw bplaa",
+          "sound": "bp",
+          "sound_hint_de": "zwischen b und p – unaspiriertes p (kein Luftstoß)",
+          "tone_class": "middle",
+          "example_thai": "ปลา",
+          "example_romanized": "bplaa",
+          "example_de": "Fisch",
+          "example_tone": "mid"
+        },
+        {
+          "type": "vowel",
+          "thai": "โอะ",
+          "name": "sara o",
+          "sound": "o",
+          "sound_hint_de": "o wie in 'pot' – kurzes o",
+          "length": "short",
+          "example_thai": "โกะ",
+          "example_romanized": "gò",
+          "example_de": "Nase (low tone)",
+          "example_tone": "low"
+        },
+        {
+          "type": "vowel",
+          "thai": "โอ",
+          "name": "sara oo",
+          "sound": "oo",
+          "sound_hint_de": "oo wie in 'go' oder 'oh' – langes o",
+          "length": "long",
+          "example_thai": "โต",
+          "example_romanized": "dtoo",
+          "example_de": "groß",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Mittelklasse (จ, ต, ป) + lebende Silbe = mittlerer Ton. Mittelklasse + lebende Silbe mit tiefem Tonzeichen = tiefer Ton.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "จาน",
+          "romanized": "jaan",
+          "de": "Teller",
+          "tone": "mid"
+        },
+        {
+          "thai": "เต่า",
+          "romanized": "dtào",
+          "de": "Schildkröte",
+          "tone": "low"
+        },
+        {
+          "thai": "ปลา",
+          "romanized": "bplaa",
+          "de": "Fisch",
+          "tone": "mid"
+        },
+        {
+          "thai": "โต",
+          "romanized": "dtoo",
+          "de": "groß",
+          "tone": "mid"
+        },
+        {
+          "thai": "โกะ",
+          "romanized": "gò",
+          "de": "Nase",
+          "tone": "low"
+        }
+      ],
+      "tone_note_de": "Mittelklasse (จ, ต, ป) + lebende Silbe = mittlerer Ton. Mittelklasse + lebende Silbe mit tiefem Tonzeichen = tiefer Ton."
+    },
+    {
+      "lesson": 10,
+      "title": "Ao, Ai mái-má-laai, Ai mái-múuan und Mái-yá-mók",
+      "title_de": "Die AO und AI Vokale + Tonzeichen",
+      "items": [
+        {
+          "type": "vowel",
+          "thai": "เอา",
+          "name": "sara ao",
+          "sound": "ao",
+          "sound_hint_de": "ao wie in 'how' – Diphthong",
+          "length": "long",
+          "example_thai": "เมา",
+          "example_romanized": "mao",
+          "example_de": "betrunken",
+          "example_tone": "mid"
+        },
+        {
+          "type": "vowel",
+          "thai": "ไอ",
+          "name": "Ai mái-má-laai",
+          "sound": "ai",
+          "sound_hint_de": "ai wie in 'Thai' – Diphthong",
+          "length": "long",
+          "example_thai": "ไม้",
+          "example_romanized": "máai",
+          "example_de": "Baum / Holz",
+          "example_tone": "falling"
+        },
+        {
+          "type": "vowel",
+          "thai": "ใอ",
+          "name": "Ai mái-múuan",
+          "sound": "ai",
+          "sound_hint_de": "ai wie in 'Thai' – gleicher Klang wie ไ, aber anderes Zeichen!",
+          "length": "long",
+          "example_thai": "ใจ",
+          "example_romanized": "jai",
+          "example_de": "Herz",
+          "example_tone": "mid",
+          "note_de": "Nur 20 Wörter schreiben sich mit ใ – auswendig lernen!"
+        },
+        {
+          "type": "tone_mark",
+          "thai": "ๆ",
+          "name": "Mái-yá-mók",
+          "description_de": "Wiederholungszeichen – verdoppelt das vorherige Wort",
+          "example_thai": "บ้านๆ",
+          "example_romanized": "bâan bâan",
+          "example_de": "gewöhnliches Haus / ganz normal",
+          "show_in_title": true
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "ไ und ใ klingen identisch (ai). ๆ verdoppelt das Wort.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "เมา",
+          "romanized": "mao",
+          "de": "betrunken",
+          "tone": "mid"
+        },
+        {
+          "thai": "เรา",
+          "romanized": "rao",
+          "de": "wir",
+          "tone": "mid"
+        },
+        {
+          "thai": "ใจ",
+          "romanized": "jai",
+          "de": "Herz / Gemüt",
+          "tone": "mid"
+        },
+        {
+          "thai": "ไป",
+          "romanized": "bpai",
+          "de": "gehen",
+          "tone": "mid"
+        },
+        {
+          "thai": "ไม้",
+          "romanized": "máai",
+          "de": "Baum / Holz",
+          "tone": "falling"
+        }
+      ],
+      "tone_note_de": "ไ und ใ klingen identisch (ai). ๆ verdoppelt das Wort."
+    },
+    {
+      "lesson": 11,
+      "title": "Der stumme Buchstabe aaw àang",
+      "title_de": "อ – der stumme Vokalträger",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "อ",
+          "name": "aaw àang",
+          "sound": "silent / glottal",
+          "sound_hint_de": "kein Laut – dient als Träger für Vokale am Wortanfang",
+          "tone_class": "middle",
+          "example_thai": "อ่าง",
+          "example_romanized": "àang",
+          "example_de": "Becken / große Schüssel",
+          "example_tone": "low",
+          "note_de": "อ leitet Wörter ein, die mit einem Vokal beginnen. Der Buchstabe selbst ist stumm."
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "อ ist Mittelklasse. Als Vokalträger am Wortanfang bestimmt es den Ton der Silbe.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "อ่าง",
+          "romanized": "àang",
+          "de": "Becken / Schüssel",
+          "tone": "low"
+        },
+        {
+          "thai": "อาน",
+          "romanized": "aan",
+          "de": "Sattel",
+          "tone": "mid"
+        },
+        {
+          "thai": "อ้วน",
+          "romanized": "ûan",
+          "de": "dick / übergewichtig",
+          "tone": "falling"
+        }
+      ],
+      "tone_note_de": "อ ist Mittelklasse. Als Vokalträger am Wortanfang bestimmt es den Ton der Silbe."
+    },
+    {
+      "lesson": 12,
+      "title": "Khǎaw khài, Chǎaw chìng, Short ia und Long ia",
+      "title_de": "Kh (Hochklasse), Ch (Hochklasse) und IA-Vokale",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ข",
+          "name": "khǎaw khài",
+          "sound": "kh",
+          "sound_hint_de": "k wie in 'Katze' – aspiriert. Hochklasse! Anders als ค (Niedrigklasse).",
+          "tone_class": "high",
+          "example_thai": "ไข่",
+          "example_romanized": "khài",
+          "example_de": "Ei",
+          "example_tone": "low"
+        },
+        {
+          "type": "consonant",
+          "thai": "ฉ",
+          "name": "chǎaw chìng",
+          "sound": "ch",
+          "sound_hint_de": "tsch – aspiriert. Hochklasse! Anders als ช (Niedrigklasse).",
+          "tone_class": "high",
+          "example_thai": "ฉิ่ง",
+          "example_romanized": "chìng",
+          "example_de": "Zimbeln (Musikinstrument)",
+          "example_tone": "low"
+        },
+        {
+          "type": "vowel",
+          "thai": "เอียะ",
+          "name": "sara ia",
+          "sound": "ia",
+          "sound_hint_de": "ia – kurzes ia, Diphthong",
+          "length": "short",
+          "example_thai": "เปียะ",
+          "example_romanized": "bpia",
+          "example_de": "(selten)",
+          "example_tone": "mid"
+        },
+        {
+          "type": "vowel",
+          "thai": "เอีย",
+          "name": "sara iia",
+          "sound": "iia",
+          "sound_hint_de": "iiia – langes ia, Diphthong",
+          "length": "long",
+          "example_thai": "เบียร์",
+          "example_romanized": "biia",
+          "example_de": "Bier",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Hochklasse + lebende Silbe = steigender Ton! Z.B. ขา = khǎa (steigend). Das ist der Unterschied zu ค (Niedrigklasse, mittlerer Ton).",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ไข่",
+          "romanized": "khài",
+          "de": "Ei",
+          "tone": "low"
+        },
+        {
+          "thai": "ขา",
+          "romanized": "khǎa",
+          "de": "Bein",
+          "tone": "rising"
+        },
+        {
+          "thai": "ฉัน",
+          "romanized": "chǎn",
+          "de": "ich (weiblich / informell)",
+          "tone": "rising"
+        },
+        {
+          "thai": "เบียร์",
+          "romanized": "biia",
+          "de": "Bier",
+          "tone": "mid"
+        }
+      ],
+      "tone_note_de": "Hochklasse + lebende Silbe = steigender Ton! Z.B. ขา = khǎa (steigend). Das ist der Unterschied zu ค (Niedrigklasse, mittlerer Ton)."
+    },
+    {
+      "lesson": 13,
+      "title": "Sǎaw sǎa-laa, Sǎaw ruue-sǐi, Sǎaw sǔuea, Short oe und Long oe",
+      "title_de": "Die drei S-Buchstaben und OE-Vokale",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ศ",
+          "name": "sǎaw sǎa-laa",
+          "sound": "s",
+          "sound_hint_de": "s wie in 'Sonne' – Hochklasse",
+          "tone_class": "high",
+          "example_thai": "ศาลา",
+          "example_romanized": "sǎa-laa",
+          "example_de": "Pavillon / Gazebo",
+          "example_tone": "rising"
+        },
+        {
+          "type": "consonant",
+          "thai": "ษ",
+          "name": "sǎaw ruue-sǐi",
+          "sound": "s",
+          "sound_hint_de": "s wie in 'Sonne' – Hochklasse (sehr selten)",
+          "tone_class": "high",
+          "example_thai": "ฤๅษี",
+          "example_romanized": "ruue-sǐi",
+          "example_de": "Einsiedler / Hermit",
+          "example_tone": "rising"
+        },
+        {
+          "type": "consonant",
+          "thai": "ส",
+          "name": "sǎaw sǔuea",
+          "sound": "s",
+          "sound_hint_de": "s wie in 'Sonne' – Hochklasse (der häufigste S-Buchstabe!)",
+          "tone_class": "high",
+          "example_thai": "เสือ",
+          "example_romanized": "sǔuea",
+          "example_de": "Tiger",
+          "example_tone": "rising"
+        },
+        {
+          "type": "vowel",
+          "thai": "เออะ",
+          "name": "sara oe",
+          "sound": "oe",
+          "sound_hint_de": "oe wie in 'Öl' – kurzes oe",
+          "length": "short",
+          "example_thai": "เงอะ",
+          "example_romanized": "ngoe",
+          "example_de": "(Beispiel kurzes oe)",
+          "example_tone": "mid"
+        },
+        {
+          "type": "vowel",
+          "thai": "เออ",
+          "name": "sara ooe",
+          "sound": "ooe",
+          "sound_hint_de": "oe – langes oe. Wenn kein Konsonant folgt: schreibe อ dahinter (เ-อ)",
+          "length": "long",
+          "example_thai": "เธอ",
+          "example_romanized": "thoe",
+          "example_de": "sie (informell)",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Alle drei (ศ, ษ, ส) klingen gleich – s. ส ist bei weitem der häufigste. Alle sind Hochklasse.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "เสือ",
+          "romanized": "sǔuea",
+          "de": "Tiger",
+          "tone": "rising"
+        },
+        {
+          "thai": "เธอ",
+          "romanized": "thoe",
+          "de": "sie (informell)",
+          "tone": "mid"
+        },
+        {
+          "thai": "ศาลา",
+          "romanized": "sǎa-laa",
+          "de": "Pavillon",
+          "tone": "rising"
+        },
+        {
+          "thai": "สาม",
+          "romanized": "sǎam",
+          "de": "drei",
+          "tone": "rising"
+        }
+      ],
+      "tone_note_de": "Alle drei (ศ, ษ, ส) klingen gleich – s. ส ist bei weitem der häufigste. Alle sind Hochklasse."
+    },
+    {
+      "lesson": 14,
+      "title": "Phǎaw phûeng, Fǎaw fǎa, Short uea und Long uea",
+      "title_de": "Ph, F (Hochklasse) und UEA-Vokale",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ผ",
+          "name": "phǎaw phûeng",
+          "sound": "ph",
+          "sound_hint_de": "p wie in 'Post' – aspiriert. Hochklasse! Anders als พ (Niedrigklasse).",
+          "tone_class": "high",
+          "example_thai": "ผึ้ง",
+          "example_romanized": "phûeng",
+          "example_de": "Biene",
+          "example_tone": "falling"
+        },
+        {
+          "type": "consonant",
+          "thai": "ฝ",
+          "name": "fǎaw fǎa",
+          "sound": "f",
+          "sound_hint_de": "f wie in 'Fisch' – Hochklasse! Anders als ฟ (Niedrigklasse).",
+          "tone_class": "high",
+          "example_thai": "ฝา",
+          "example_romanized": "fǎa",
+          "example_de": "Deckel / Verschluss",
+          "example_tone": "rising"
+        },
+        {
+          "type": "vowel",
+          "thai": "เอือะ",
+          "name": "sara uea",
+          "sound": "uea",
+          "sound_hint_de": "üa – kurzes uea, Diphthong",
+          "length": "short",
+          "example_thai": "(selten)",
+          "example_romanized": "-",
+          "example_de": "(selten im modernen Thai)",
+          "example_tone": "mid"
+        },
+        {
+          "type": "vowel",
+          "thai": "เอือ",
+          "name": "sara uuea",
+          "sound": "uuea",
+          "sound_hint_de": "ü-a – langes uea. Wenn kein Konsonant folgt: schreibe อ dahinter",
+          "length": "long",
+          "example_thai": "เมือง",
+          "example_romanized": "meuang",
+          "example_de": "Stadt / Land",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Hochklasse (ผ, ฝ) + lebende Silbe = steigender Ton. Vergleiche: ผา (steigend) vs. พา (mittlerer Ton)",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ผึ้ง",
+          "romanized": "phûeng",
+          "de": "Biene",
+          "tone": "falling"
+        },
+        {
+          "thai": "ฝา",
+          "romanized": "fǎa",
+          "de": "Deckel / Verschluss",
+          "tone": "rising"
+        },
+        {
+          "thai": "เมือง",
+          "romanized": "meuang",
+          "de": "Stadt / Land",
+          "tone": "mid"
+        },
+        {
+          "thai": "เสือ",
+          "romanized": "sǔuea",
+          "de": "Tiger",
+          "tone": "rising"
+        }
+      ],
+      "tone_note_de": "Hochklasse (ผ, ฝ) + lebende Silbe = steigender Ton. Vergleiche: ผา (steigend) vs. พา (mittlerer Ton)"
+    },
+    {
+      "lesson": 15,
+      "title": "Das klassenwechselnde hǎaw hìip, Short ua, und Long ua",
+      "title_de": "ห als Tonänderungs-Buchstabe und UA-Vokale",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ห",
+          "name": "hǎaw hìip",
+          "sound": "h / silent",
+          "sound_hint_de": "h wie in 'Haus'. Als Vorsteller vor Niedrigklasse-Konsonanten: macht diese zu Hochklasse!",
+          "tone_class": "high",
+          "example_thai": "หีบ",
+          "example_romanized": "hìip",
+          "example_de": "Schatzkiste / Truhe",
+          "example_tone": "low",
+          "note_de": "ห vor Niedrigklasse-Konsonanten = Hochklasse-Ton! Z.B. หน = steigender Ton statt mittlerer"
+        },
+        {
+          "type": "vowel",
+          "thai": "อัวะ",
+          "name": "sara ua",
+          "sound": "ua",
+          "sound_hint_de": "ua – kurzes ua, Diphthong",
+          "length": "short",
+          "example_thai": "(selten)",
+          "example_romanized": "-",
+          "example_de": "(sehr selten)",
+          "example_tone": "mid"
+        },
+        {
+          "type": "vowel",
+          "thai": "อัว",
+          "name": "sara uua",
+          "sound": "uua",
+          "sound_hint_de": "ua – langes ua",
+          "length": "long",
+          "example_thai": "วัว",
+          "example_romanized": "wua",
+          "example_de": "Kuh",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "ห + Niedrigklasse = verhält sich wie Hochklasse! หม, หน, หง, หย, หว, หร, หล = steigender Grundton.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "หีบ",
+          "romanized": "hìip",
+          "de": "Truhe / Kiste",
+          "tone": "low"
+        },
+        {
+          "thai": "วัว",
+          "romanized": "wua",
+          "de": "Kuh",
+          "tone": "mid"
+        },
+        {
+          "thai": "หมา",
+          "romanized": "mǎa",
+          "de": "Hund",
+          "tone": "rising"
+        },
+        {
+          "thai": "หนู",
+          "romanized": "nǔu",
+          "de": "Maus / ich (süß)",
+          "tone": "rising"
+        }
+      ],
+      "tone_note_de": "ห + Niedrigklasse = verhält sich wie Hochklasse! หม, หน, หง, หย, หว, หร, หล = steigender Grundton."
+    },
+    {
+      "lesson": 16,
+      "title": "ภ (Phaaw sǎm phao), ธ (Thaaw thong), ณ (Naaw neen) und ญ (Yaaw yǐng)",
+      "title_de": "Seltene Verdoppelungen: Ph, Th, N, Y",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ภ",
+          "name": "phaaw sǎm-phao",
+          "sound": "ph",
+          "sound_hint_de": "p wie พ – aspiriert. Niedrigklasse. Sehr selten.",
+          "tone_class": "low",
+          "example_thai": "สำเภา",
+          "example_romanized": "sǎm-phao",
+          "example_de": "Chinesisches Segelboot",
+          "example_tone": "rising"
+        },
+        {
+          "type": "consonant",
+          "thai": "ธ",
+          "name": "thaaw thong",
+          "sound": "th",
+          "sound_hint_de": "t wie ท – aspiriert. Niedrigklasse.",
+          "tone_class": "low",
+          "example_thai": "ธง",
+          "example_romanized": "thong",
+          "example_de": "Flagge",
+          "example_tone": "mid"
+        },
+        {
+          "type": "consonant",
+          "thai": "ณ",
+          "name": "naaw neen",
+          "sound": "n",
+          "sound_hint_de": "n wie น – gleicher Klang. Niedrigklasse.",
+          "tone_class": "low",
+          "example_thai": "เณร",
+          "example_romanized": "neen",
+          "example_de": "buddhistischer Novize",
+          "example_tone": "mid"
+        },
+        {
+          "type": "consonant",
+          "thai": "ญ",
+          "name": "yaaw yǐng",
+          "sound": "y/n",
+          "sound_hint_de": "y wie ย am Anfang, n am Silbenende",
+          "tone_class": "low",
+          "example_thai": "หญิง",
+          "example_romanized": "yǐng",
+          "example_de": "Frau",
+          "example_tone": "rising"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Diese Buchstaben klingen wie ihre häufigeren Varianten (ท, น, ย), stammen aus Sanskrit/Pali.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ธง",
+          "romanized": "thong",
+          "de": "Flagge",
+          "tone": "mid"
+        },
+        {
+          "thai": "หญิง",
+          "romanized": "yǐng",
+          "de": "Frau",
+          "tone": "rising"
+        },
+        {
+          "thai": "สำเภา",
+          "romanized": "sǎm-phao",
+          "de": "Segelboot",
+          "tone": "rising"
+        }
+      ],
+      "tone_note_de": "Diese Buchstaben klingen wie ihre häufigeren Varianten (ท, น, ย), stammen aus Sanskrit/Pali."
+    },
+    {
+      "lesson": 17,
+      "title": "Tonzeichen Teil 1: ไม้เอก und ไม้โท",
+      "title_de": "Die Tonzeichen: Mai Ek und Mai Tho",
+      "items": [
+        {
+          "type": "tone_mark",
+          "thai": "ไม้เอก",
+          "name": "mái-èek",
+          "description_de": "Mai Ek – das häufigste Tonzeichen",
+          "effect_de": "Mittelklasse + Mai Ek = tiefer Ton | Hochklasse + Mai Ek = tiefer Ton | Niedrigklasse + Mai Ek = fallender Ton",
+          "example_thai": "ข่า",
+          "example_romanized": "khàa",
+          "example_de": "Galangal (Gewürz)",
+          "show_in_title": true
+        },
+        {
+          "type": "tone_mark",
+          "thai": "ไม้โท",
+          "name": "mái-thoo",
+          "description_de": "Mai Tho – zweites Tonzeichen",
+          "effect_de": "Mittelklasse + Mai Tho = fallender Ton | Hochklasse + Mai Tho = fallender Ton | Niedrigklasse + Mai Tho = hoher Ton",
+          "example_thai": "ข้า",
+          "example_romanized": "khâa",
+          "example_de": "Sklave / ich (veraltet, ehrerbietig)",
+          "show_in_title": true
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Mai Ek (่) und Mai Tho (้) verändern den Ton der Silbe. Die Wirkung hängt von der Konsonantenklasse ab!",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ไม้",
+          "romanized": "máai",
+          "de": "Holz / Baum",
+          "tone": "falling"
+        },
+        {
+          "thai": "น้า",
+          "romanized": "náa",
+          "de": "Onkel/Tante (Mutterseite)",
+          "tone": "high"
+        },
+        {
+          "thai": "ข้าว",
+          "romanized": "khâao",
+          "de": "Reis",
+          "tone": "falling"
+        },
+        {
+          "thai": "น้ำ",
+          "romanized": "nám",
+          "de": "Wasser",
+          "tone": "high"
+        }
+      ],
+      "tone_note_de": "Mai Ek (่) und Mai Tho (้) verändern den Ton der Silbe. Die Wirkung hängt von der Konsonantenklasse ab!"
+    },
+    {
+      "lesson": 18,
+      "title": "Tonzeichen Teil 2: ไม้ตรี und ไม้จัตวา",
+      "title_de": "Weitere Tonzeichen: Mai Dtri und Mai Jàt-dtà-waa",
+      "items": [
+        {
+          "type": "tone_mark",
+          "thai": "ไม้ตรี",
+          "name": "mái-dtrii",
+          "description_de": "Mai Dtri – selten, nur bei Mittelklasse",
+          "effect_de": "Mittelklasse + Mai Dtri = hoher Ton",
+          "example_thai": "ก๊าซ",
+          "example_romanized": "gáat",
+          "example_de": "Gas",
+          "show_in_title": true
+        },
+        {
+          "type": "tone_mark",
+          "thai": "ไม้จัตวา",
+          "name": "mái-jàt-dtà-waa",
+          "description_de": "Mai Jàt-dtà-waa – selten, nur bei Mittelklasse",
+          "effect_de": "Mittelklasse + Mai Jàt-dtà-waa = steigender Ton",
+          "example_thai": "เก๋",
+          "example_romanized": "gěe",
+          "example_de": "schick / stilvoll",
+          "show_in_title": true
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Diese zwei Zeichen sind sehr selten. Mai Dtri und Mai Jàt-dtà-waa erscheinen fast nur in Lehnwörtern.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ก๊าซ",
+          "romanized": "gáat",
+          "de": "Gas",
+          "tone": "high"
+        },
+        {
+          "thai": "เก๋",
+          "romanized": "gěe",
+          "de": "schick / stilvoll",
+          "tone": "rising"
+        }
+      ],
+      "tone_note_de": "Diese zwei Zeichen sind sehr selten. Mai Dtri und Mai Jàt-dtà-waa erscheinen fast nur in Lehnwörtern."
+    },
+    {
+      "lesson": 19,
+      "title": "ถ (Thǎaw thǔng), ฐ (Thǎaw thǎan), ฎ (Daaw chá-daa) und ฏ (Dtaaw bpà-dtàk)",
+      "title_de": "Seltene historische Buchstaben",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ถ",
+          "name": "thǎaw thǔng",
+          "sound": "th",
+          "sound_hint_de": "t aspiriert – Hochklasse",
+          "tone_class": "high",
+          "example_thai": "ถุง",
+          "example_romanized": "thǔng",
+          "example_de": "Beutel / Tasche",
+          "example_tone": "rising"
+        },
+        {
+          "type": "consonant",
+          "thai": "ฐ",
+          "name": "thǎaw thǎan",
+          "sound": "th",
+          "sound_hint_de": "t aspiriert – Hochklasse. Stammt aus Sanskrit.",
+          "tone_class": "high",
+          "example_thai": "ฐาน",
+          "example_romanized": "thǎan",
+          "example_de": "Basis / Sockel",
+          "example_tone": "rising"
+        },
+        {
+          "type": "consonant",
+          "thai": "ฎ",
+          "name": "daaw chá-daa",
+          "sound": "d",
+          "sound_hint_de": "d wie ด – Mittelklasse. Nur in Sanskrit-Wörtern.",
+          "tone_class": "middle",
+          "example_thai": "ชฎา",
+          "example_romanized": "chá-daa",
+          "example_de": "Thai-Spitzkrone",
+          "example_tone": "mid"
+        },
+        {
+          "type": "consonant",
+          "thai": "ฏ",
+          "name": "dtaaw bpà-dtàk",
+          "sound": "dt",
+          "sound_hint_de": "dt wie ต – unaspiriert. Nur in Sanskrit-Wörtern.",
+          "tone_class": "middle",
+          "example_thai": "ปฏัก",
+          "example_romanized": "bpà-dtàk",
+          "example_de": "Stachelstock (Elefantenstab)",
+          "example_tone": "low"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Diese Buchstaben stammen aus dem Sanskrit/Pali und sind im modernen Thai selten. ถ und ฐ klingen beide wie t-aspiriert.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ถุง",
+          "romanized": "thǔng",
+          "de": "Beutel / Tasche",
+          "tone": "rising"
+        },
+        {
+          "thai": "ฐาน",
+          "romanized": "thǎan",
+          "de": "Basis / Grundlage",
+          "tone": "rising"
+        }
+      ],
+      "tone_note_de": "Diese Buchstaben stammen aus dem Sanskrit/Pali und sind im modernen Thai selten. ถ und ฐ klingen beide wie t-aspiriert."
+    },
+    {
+      "lesson": 20,
+      "title": "ฑ (Thaaw mon-thoo) und ฒ (Thaaw phûu-thâo)",
+      "title_de": "Zwei weitere seltene TH-Buchstaben",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ฑ",
+          "name": "thaaw mon-thoo",
+          "sound": "th",
+          "sound_hint_de": "t aspiriert wie ท – Niedrigklasse. Sehr selten.",
+          "tone_class": "low",
+          "example_thai": "มณโฑ",
+          "example_romanized": "mon-thoo",
+          "example_de": "Figur aus dem Ramakien (Thai-Epos)",
+          "example_tone": "mid"
+        },
+        {
+          "type": "consonant",
+          "thai": "ฒ",
+          "name": "thaaw phûu-thâo",
+          "sound": "th",
+          "sound_hint_de": "t aspiriert wie ท – Niedrigklasse. Sehr selten.",
+          "tone_class": "low",
+          "example_thai": "ผู้เฒ่า",
+          "example_romanized": "phûu-thâo",
+          "example_de": "alter Mann / weiser Mann",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "ฑ und ฒ klingen wie ท – beide sehr selten, nur in alten Lehnwörtern aus Sanskrit.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ผู้เฒ่า",
+          "romanized": "phûu-thâo",
+          "de": "alter / weiser Mann",
+          "tone": "mid"
+        }
+      ],
+      "tone_note_de": "ฑ und ฒ klingen wie ท – beide sehr selten, nur in alten Lehnwörtern aus Sanskrit."
+    },
+    {
+      "lesson": 21,
+      "title": "ฬ (Laaw jù-laa) und ฆ (Khaaw rá-khang)",
+      "title_de": "Zwei weitere seltene Buchstaben: L und Kh",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ฬ",
+          "name": "laaw jù-laa",
+          "sound": "l",
+          "sound_hint_de": "l wie ล – Niedrigklasse. Sehr selten.",
+          "tone_class": "low",
+          "example_thai": "จุฬา",
+          "example_romanized": "jù-laa",
+          "example_de": "eine Art Drachen",
+          "example_tone": "mid"
+        },
+        {
+          "type": "consonant",
+          "thai": "ฆ",
+          "name": "khaaw rá-khang",
+          "sound": "kh",
+          "sound_hint_de": "k aspiriert wie ค – Niedrigklasse. Selten.",
+          "tone_class": "low",
+          "example_thai": "ระฆัง",
+          "example_romanized": "rá-khang",
+          "example_de": "Glocke",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "ฬ und ล klingen gleich. ฆ und ค klingen gleich. Beide Buchstaben sind sehr selten.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ระฆัง",
+          "romanized": "rá-khang",
+          "de": "Glocke",
+          "tone": "mid"
+        },
+        {
+          "thai": "จุฬา",
+          "romanized": "jù-laa",
+          "de": "Drachen (Spielzeug)",
+          "tone": "mid"
+        }
+      ],
+      "tone_note_de": "ฬ und ล klingen gleich. ฆ und ค klingen gleich. Beide Buchstaben sind sehr selten."
+    },
+    {
+      "lesson": 22,
+      "title": "ฃ (Khǎaw khùuat), ฅ (Khaaw khon), ฤ, ฤา, ฦ und ฦา",
+      "title_de": "Die veralteten und Sanskrit-Buchstaben",
+      "items": [
+        {
+          "type": "consonant",
+          "thai": "ฃ",
+          "name": "khǎaw khùuat",
+          "sound": "kh",
+          "sound_hint_de": "k aspiriert wie ข – veraltet, nicht mehr in Gebrauch!",
+          "tone_class": "high",
+          "example_thai": "ขวด",
+          "example_romanized": "khùuat",
+          "example_de": "Flasche",
+          "example_tone": "low",
+          "note_de": "ฃ wird nicht mehr verwendet! Modernes Thai schreibt ข stattdessen."
+        },
+        {
+          "type": "consonant",
+          "thai": "ฅ",
+          "name": "khaaw khon",
+          "sound": "kh",
+          "sound_hint_de": "k aspiriert wie ค – veraltet, nicht mehr in Gebrauch!",
+          "tone_class": "low",
+          "example_thai": "คน",
+          "example_romanized": "khon",
+          "example_de": "Person / Mensch",
+          "example_tone": "mid",
+          "note_de": "ฅ wird nicht mehr verwendet! Modernes Thai schreibt ค stattdessen."
+        },
+        {
+          "type": "vowel",
+          "thai": "ฤ",
+          "name": "rue",
+          "sound": "rue / ri",
+          "sound_hint_de": "rüe – kurzer Sanskrit-Vokal (manchmal auch 'ri' ausgesprochen)",
+          "length": "short",
+          "example_thai": "ฤดู",
+          "example_romanized": "rúe-duu",
+          "example_de": "Jahreszeit",
+          "example_tone": "mid",
+          "show_in_title": true
+        },
+        {
+          "type": "vowel",
+          "thai": "ฤา",
+          "name": "ruue",
+          "sound": "ruue",
+          "sound_hint_de": "rüüe – langer Sanskrit-Vokal",
+          "length": "long",
+          "example_thai": "ฤๅษี",
+          "example_romanized": "ruue-sǐi",
+          "example_de": "Einsiedler",
+          "example_tone": "rising",
+          "show_in_title": true
+        },
+        {
+          "type": "vowel",
+          "thai": "ฦ",
+          "name": "lúe",
+          "sound": "lue",
+          "sound_hint_de": "lüe – selten, aus Sanskrit",
+          "length": "short",
+          "example_thai": "ฦ",
+          "example_romanized": "lúe",
+          "example_de": "(Sanskrit-Vokal, veraltet)",
+          "example_tone": "mid",
+          "note_de": "ฦ und ฦา kommen aus Sanskrit und sind im modernen Thai nicht mehr in Gebrauch.",
+          "show_in_title": true
+        },
+        {
+          "type": "vowel",
+          "thai": "ฦา",
+          "name": "lúue",
+          "sound": "luue",
+          "sound_hint_de": "lüüe – langer Sanskrit-Vokal",
+          "length": "long",
+          "example_thai": "ฦา",
+          "example_romanized": "lúue",
+          "example_de": "(Sanskrit-Vokal, veraltet)",
+          "example_tone": "mid",
+          "show_in_title": true
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "ฃ und ฅ sind veraltet. ฤ ist ein Sanskrit-Vokal-Konsonant und erscheint in einigen gängigen Wörtern.",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "ฤดู",
+          "romanized": "rúe-duu",
+          "de": "Jahreszeit",
+          "tone": "mid"
+        },
+        {
+          "thai": "คน",
+          "romanized": "khon",
+          "de": "Person / Mensch",
+          "tone": "mid"
+        }
+      ],
+      "tone_note_de": "ฃ und ฅ sind veraltet. ฤ ist ein Sanskrit-Vokal-Konsonant und erscheint in einigen gängigen Wörtern."
+    },
+    {
+      "lesson": 23,
+      "title": "Thai-Zahlen 1-3 und อว",
+      "title_de": "Zahlen 1 bis 3 auf Thai",
+      "items": [
+        {
+          "type": "number",
+          "thai": "๑",
+          "arabic": "1",
+          "name": "nèung",
+          "de": "eins",
+          "romanized": "nèung",
+          "show_in_title": true
+        },
+        {
+          "type": "number",
+          "thai": "๒",
+          "arabic": "2",
+          "name": "sǒong",
+          "de": "zwei",
+          "romanized": "sǒong",
+          "show_in_title": true
+        },
+        {
+          "type": "number",
+          "thai": "๓",
+          "arabic": "3",
+          "name": "sǎam",
+          "de": "drei",
+          "romanized": "sǎam",
+          "show_in_title": true
+        },
+        {
+          "type": "vowel",
+          "thai": "อว",
+          "name": "sara ua / aw",
+          "sound": "ua",
+          "sound_hint_de": "ua – Diphthong",
+          "length": "long",
+          "example_thai": "กลัว",
+          "example_romanized": "gluua",
+          "example_de": "Angst haben",
+          "example_tone": "mid"
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Thai-Zahlen sehen aus wie arabische Zahlen, sind aber eigene Zeichen. ๑=1, ๒=2, ๓=3",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "หนึ่ง",
+          "romanized": "nèung",
+          "de": "eins",
+          "tone": "low"
+        },
+        {
+          "thai": "สอง",
+          "romanized": "sǒong",
+          "de": "zwei",
+          "tone": "rising"
+        },
+        {
+          "thai": "สาม",
+          "romanized": "sǎam",
+          "de": "drei",
+          "tone": "rising"
+        },
+        {
+          "thai": "กลัว",
+          "romanized": "gluua",
+          "de": "Angst haben",
+          "tone": "mid"
+        }
+      ],
+      "tone_note_de": "Thai-Zahlen sehen aus wie arabische Zahlen, sind aber eigene Zeichen. ๑=1, ๒=2, ๓=3"
+    },
+    {
+      "lesson": 24,
+      "title": "Zahlen 4-6, อุย und เ-ย (Ooei)",
+      "title_de": "Zahlen 4 bis 6, อุย und เอย",
+      "items": [
+        {
+          "type": "number",
+          "thai": "๔",
+          "arabic": "4",
+          "name": "sèe",
+          "de": "vier",
+          "romanized": "sèe",
+          "show_in_title": true
+        },
+        {
+          "type": "number",
+          "thai": "๕",
+          "arabic": "5",
+          "name": "hâa",
+          "de": "fünf",
+          "romanized": "hâa",
+          "show_in_title": true
+        },
+        {
+          "type": "number",
+          "thai": "๖",
+          "arabic": "6",
+          "name": "hòk",
+          "de": "sechs",
+          "romanized": "hòk",
+          "show_in_title": true
+        },
+        {
+          "type": "vowel",
+          "thai": "เอย",
+          "name": "sara ooei",
+          "sound": "ooei",
+          "sound_hint_de": "öi – Diphthong (oe + i)",
+          "length": "long",
+          "example_thai": "เลย",
+          "example_romanized": "looei",
+          "example_de": "überhaupt / also / schon",
+          "example_tone": "mid"
+        },
+        {
+          "type": "vowel",
+          "thai": "อุย",
+          "name": "sara uui / ooi",
+          "sound": "uui",
+          "sound_hint_de": "ui – Diphthong (u+i)",
+          "length": "long",
+          "example_thai": "กุ้ย",
+          "example_romanized": "gúui",
+          "example_de": "(Beispiel)",
+          "example_tone": "falling",
+          "show_in_title": true
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "๔=4, ๕=5, ๖=6. เลย ist ein sehr häufiges Wort im Alltag!",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "สี่",
+          "romanized": "sèe",
+          "de": "vier",
+          "tone": "low"
+        },
+        {
+          "thai": "ห้า",
+          "romanized": "hâa",
+          "de": "fünf",
+          "tone": "falling"
+        },
+        {
+          "thai": "หก",
+          "romanized": "hòk",
+          "de": "sechs",
+          "tone": "low"
+        },
+        {
+          "thai": "เลย",
+          "romanized": "looei",
+          "de": "überhaupt / also",
+          "tone": "mid"
+        }
+      ],
+      "tone_note_de": "๔=4, ๕=5, ๖=6. เลย ist ein sehr häufiges Wort im Alltag!"
+    },
+    {
+      "lesson": 25,
+      "title": "Zahlen 7-10 und unregelmäßige Schreibweisen",
+      "title_de": "Zahlen 7 bis 10 und Besonderheiten",
+      "items": [
+        {
+          "type": "number",
+          "thai": "๗",
+          "arabic": "7",
+          "name": "jèt",
+          "de": "sieben",
+          "romanized": "jèt",
+          "show_in_title": true
+        },
+        {
+          "type": "number",
+          "thai": "๘",
+          "arabic": "8",
+          "name": "bpàet",
+          "de": "acht",
+          "romanized": "bpàet",
+          "show_in_title": true
+        },
+        {
+          "type": "number",
+          "thai": "๙",
+          "arabic": "9",
+          "name": "gâo",
+          "de": "neun",
+          "romanized": "gâo",
+          "show_in_title": true
+        },
+        {
+          "type": "number",
+          "thai": "๑๐",
+          "arabic": "10",
+          "name": "sìp",
+          "de": "zehn",
+          "romanized": "sìp",
+          "show_in_title": true
+        },
+        {
+          "type": "tone_rule",
+          "title_de": "Tonregel dieser Lektion",
+          "rule_de": "Achtung: เก้า (9) hat ein Mai Tho Zeichen. Thai Zahlen folgen dem Dezimalsystem: 11 = สิบเอ็ด (10+1).",
+          "icon": "🎵"
+        }
+      ],
+      "vocabulary": [
+        {
+          "thai": "เจ็ด",
+          "romanized": "jèt",
+          "de": "sieben",
+          "tone": "low"
+        },
+        {
+          "thai": "แปด",
+          "romanized": "bpàet",
+          "de": "acht",
+          "tone": "low"
+        },
+        {
+          "thai": "เก้า",
+          "romanized": "gâo",
+          "de": "neun",
+          "tone": "falling"
+        },
+        {
+          "thai": "สิบ",
+          "romanized": "sìp",
+          "de": "zehn",
+          "tone": "low"
+        },
+        {
+          "thai": "สิบเอ็ด",
+          "romanized": "sìp-èt",
+          "de": "elf",
+          "tone": "low"
+        },
+        {
+          "thai": "ยี่สิบ",
+          "romanized": "yîi-sìp",
+          "de": "zwanzig",
+          "tone": "falling"
+        }
+      ],
+      "tone_note_de": "Achtung: เก้า (9) hat ein Mai Tho Zeichen. Thai Zahlen folgen dem Dezimalsystem: 11 = สิบเอ็ด (10+1)."
+    }
+  ]
+}

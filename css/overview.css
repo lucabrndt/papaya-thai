@@ -1,0 +1,142 @@
+/* ── Course header ───────────────────────────────────────── */
+
+.overview-course-header {
+  padding: 28px 36px 20px;
+  background: #fff;
+}
+
+.overview-course-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 4px;
+}
+
+.overview-num {
+  color: var(--orange);
+}
+
+.overview-course-meta {
+  font-size: 0.85rem;
+  color: var(--text-mid);
+  margin-bottom: 14px;
+}
+
+.overview-course-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.overview-progress-bar {
+  flex: 1;
+  max-width: 360px;
+  height: 8px;
+  background: #e8e8e8;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.overview-progress-fill {
+  height: 100%;
+  background: var(--green);
+  border-radius: 99px;
+  transition: width 0.6s ease;
+}
+
+.overview-progress-label {
+  font-size: 0.78rem;
+  color: var(--text-mid);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.overview-divider {
+  height: 1px;
+  background: #e8e8e8;
+  margin: 0 36px;
+}
+
+/* ── Lesson list ─────────────────────────────────────────── */
+
+#chapters-container {
+  padding: 4px 0 48px;
+}
+
+.lesson-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 36px;
+  cursor: pointer;
+  border-bottom: 1px solid #f2f2f2;
+  transition: background 0.12s;
+}
+
+.lesson-row:hover {
+  background: #f8f8f8;
+}
+
+.lesson-row.current {
+  background: #f0f7ff;
+}
+
+.lesson-row-num {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--orange);
+  width: 28px;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.lesson-row-title {
+  flex: 1;
+  font-size: 0.92rem;
+  color: var(--text-mid);
+  line-height: 1.5;
+}
+
+.lesson-row-sep {
+  color: #bbb;
+  margin: 0 2px;
+}
+
+.lesson-row-thai {
+  font-family: 'ThaiFont', Thonburi, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  letter-spacing: 1px;
+}
+
+/* ── Row progress circle ─────────────────────────────────── */
+
+.lesson-row-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.lesson-row-circle.done {
+  background: var(--green);
+  color: #fff;
+}
+
+.lesson-row-circle.current {
+  background: #fff;
+  color: var(--blue);
+  border: 2.5px solid var(--blue);
+  box-shadow: 0 0 0 3px rgba(33,150,243,0.12);
+}
+
+.lesson-row-circle.todo {
+  background: #e8e8e8;
+  color: transparent;
+}

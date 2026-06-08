@@ -1,0 +1,363 @@
+/* ── Learn Mode Layout ───────────────────────────────────── */
+
+#view-learn {
+  background: var(--bg);
+}
+
+.learn-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px 32px;
+  gap: 24px;
+}
+
+/* ── Card Container + 3D Flip ────────────────────────────── */
+
+.card-scene {
+  perspective: 1200px;
+  width: 100%;
+  max-width: 500px;
+  min-height: 420px;
+}
+
+.learn-card {
+  position: relative;
+  width: 100%;
+  min-height: 420px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.55s cubic-bezier(0.4,0,0.2,1);
+  will-change: transform;
+  user-select: none;
+}
+
+.learn-card.flipped {
+  transform: rotateY(180deg);
+}
+
+.learn-card.slide-out-left {
+  animation: slideOutLeft 0.25s ease forwards;
+}
+.learn-card.slide-out-right {
+  animation: slideOutRight 0.25s ease forwards;
+}
+.learn-card.slide-in-right {
+  animation: slideInRight 0.28s ease forwards;
+}
+.learn-card.slide-in-left {
+  animation: slideInLeft 0.28s ease forwards;
+}
+
+@keyframes slideOutLeft {
+  to { transform: translateX(-80px); opacity: 0; }
+}
+@keyframes slideOutRight {
+  to { transform: translateX(80px); opacity: 0; }
+}
+@keyframes slideInRight {
+  from { transform: translateX(80px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes slideInLeft {
+  from { transform: translateX(-80px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.card-face {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  min-height: 420px;
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-face.card-back {
+  transform: rotateY(180deg);
+}
+
+/* Class-color left border */
+.card-face.class-middle { border-left: 5px solid var(--class-middle); }
+.card-face.class-low    { border-left: 5px solid var(--class-low); }
+.card-face.class-high   { border-left: 5px solid var(--class-high); }
+.card-face.class-none   { border-left: 5px solid var(--primary); }
+
+/* ── Card Front ──────────────────────────────────────────── */
+
+.front-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px 0;
+}
+
+.front-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 24px 12px;
+  gap: 8px;
+}
+
+.thai-main {
+  font-family: 'ThaiFont', Thonburi, sans-serif;
+  font-size: 140px;
+  line-height: 1.1;
+  color: var(--text);
+  text-align: center;
+}
+
+.thai-main.with-context {
+  font-size: 90px;
+}
+
+.item-name-label {
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+}
+
+.number-pair {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.number-arabic {
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--primary-light);
+  line-height: 1;
+}
+
+.flip-hint {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 12px 20px 18px;
+  opacity: 0.7;
+  margin-top: auto;
+}
+
+.flip-hint::before {
+  content: '↕ ';
+  font-size: 0.9em;
+}
+
+/* ── Card Back ───────────────────────────────────────────── */
+
+.back-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 20px;
+  background: #fafafa;
+  border-bottom: 1px solid #f0ece4;
+  flex-wrap: wrap;
+}
+
+.thai-small {
+  font-family: 'ThaiFont', Thonburi, sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.back-name {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-style: italic;
+  flex: 1;
+}
+
+.back-body {
+  flex: 1;
+  padding: 20px 22px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  overflow-y: auto;
+}
+
+.example-block {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.example-thai {
+  font-family: 'ThaiFont', Thonburi, sans-serif;
+  font-size: 52px;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.example-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+
+.example-romanized {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.example-bullet { color: #ccc; }
+
+.example-de {
+  font-weight: 600;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.hint-box {
+  background: var(--hint-bg);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  color: #7a5a00;
+  line-height: 1.5;
+}
+
+.note-box {
+  background: var(--note-bg);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  color: #1a5276;
+  line-height: 1.5;
+}
+
+.tone-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: #f9f5f0;
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.tone-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+}
+
+.tone-icon {
+  font-size: 1.1em;
+}
+
+.tone-name {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.tone-rule-text {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* tone mark type */
+.effect-box {
+  background: #f0f4ff;
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  color: #2d3a8c;
+  line-height: 1.5;
+}
+
+/* ── Learn Navigation ────────────────────────────────────── */
+
+.learn-nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.nav-spacer { flex: 1; }
+
+/* ── Lesson Summary ──────────────────────────────────────── */
+
+.summary-view {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: 32px 28px;
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.summary-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--success);
+  text-align: center;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 10px;
+}
+
+.summary-item {
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  padding: 10px 8px;
+  text-align: center;
+  border: 1px solid #f0e8d8;
+}
+
+.summary-thai {
+  font-family: 'ThaiFont', Thonburi, sans-serif;
+  font-size: 32px;
+  line-height: 1.2;
+  display: block;
+}
+
+.summary-de {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.summary-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  .thai-main { font-size: 100px; }
+  .thai-main.with-context { font-size: 68px; }
+  .card-scene, .learn-card { min-height: 380px; }
+  .card-face { min-height: 380px; }
+  .example-thai { font-size: 40px; }
+}
