@@ -524,9 +524,37 @@ body.lesson-active #view-quiz.active {
   z-index: 9999;
 }
 
+/* ── Mobile continue button (hidden on desktop) ──────────── */
+
+.mobile-continue-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  border-radius: 99px;
+  padding: 14px 28px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 150;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.22);
+  white-space: nowrap;
+}
+
 /* ── Responsive ──────────────────────────────────────────── */
 
 @media (max-width: 768px) {
   #sidebar { display: none; }
   #main-content { width: 100%; }
+
+  .popup-overlay { padding: 0 16px; }
+
+  #chapters-container { padding-bottom: 80px; }
+
+  .mobile-continue-btn { display: flex; }
 }

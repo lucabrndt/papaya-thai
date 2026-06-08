@@ -140,3 +140,9 @@
   background: #e8e8e8;
   color: transparent;
 }
+
+@media (max-width: 768px) {
+  .overview-course-header { padding: 20px 20px 16px; }
+  .overview-divider { margin: 0 20px; }
+  .lesson-row { padding: 13px 16px; }
+}
