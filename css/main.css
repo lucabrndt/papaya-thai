@@ -1,3 +1,6 @@
+/* To re-enable WIP features: remove or comment out this line */
+.wip { display: none !important; }
+
 :root {
   /* New color scheme */
   --orange:        #E8941A;
